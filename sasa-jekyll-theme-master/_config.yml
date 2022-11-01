@@ -1,0 +1,39 @@
+title:            SASa-Jekyll-Theme
+description:      A simple jekyll theme. Fast and Lightweight.
+url:              http://www.newaeonweb.com.br/sasa-jekyll-theme # Site url. Place your path here, or leave blank to work local.
+logo:             sasa-jekyll-theme-logo.png # Replace for your own logo.
+signoff:          Sasa team # Your name.
+disqus_shortname: # disqus comments, create your account on disqus site and place your id here.
+facebook_appid:   # appid for like button, do the same above.
+google_analytics: # Place your ID here.
+
+links:
+  - name:         About
+    url:          /about
+  - name:         Blog
+    url:          /
+  - name:         Projects
+    url:          /projects
+  - name:         Contact
+    url:          mailto:yourname@yourhost.com
+    external:     true
+
+social-links:
+  - name:         GitHub
+    url:          http://github.com/yourname
+    icon:         icon-github
+    external:     true
+  - name:         Linkedin
+    url:          # Linkedin url
+    icon:         icon-linkedin
+    external:     true
+  - name:         Twitter
+    url:          # twitter url
+    icon:         icon-twitter
+    external:     true
+pygments:         false
+permalink:        pretty
+markdown:         redcarpet
+redcarpet:
+  extensions:
+    - smart
